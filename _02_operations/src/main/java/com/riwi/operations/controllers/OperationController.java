@@ -20,4 +20,31 @@ public class OperationController {
 
         return num1 + " + " + num2 + " = " + (num1 + num2);
     }
+
+    @PostMapping("/res")
+    public String res(@RequestBody Operation objOperation){
+
+        int num1 = objOperation.getNum1();
+        int num2 = objOperation.getNum2();
+
+        return num1 + " - " + num2 + " = " + (num1 - num2);
+    }
+
+    @PostMapping("/multiply")
+    public String multiply(@RequestBody Operation objOperation){
+
+        int num1 = objOperation.getNum1();
+        int num2 = objOperation.getNum2();
+
+        return num1 + " * " + num2 + " = " + (num1 * num2);
+    }
+
+    @PostMapping("/split")
+    public String split(@RequestBody Operation objOperation){
+
+        int num1 = objOperation.getNum1();
+        int num2 = objOperation.getNum2();
+
+        return num1 + " / " + num2 + " = " + (num1 / num2);
+    }
 }
