@@ -1,10 +1,10 @@
-package com.riwi._02_EventsRegister;
+package com.eventos.eventos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class EventoApplicationTests {
 
 	@Test
 	void contextLoads() {

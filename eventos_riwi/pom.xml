@@ -8,10 +8,10 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.riwi</groupId>
-	<artifactId>_02_EventsRegister</artifactId>
+	<groupId>com.eventos</groupId>
+	<artifactId>eventos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>_02_EventsRegister</name>
+	<name>evento</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
